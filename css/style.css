@@ -3,3 +3,28 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --light-green: #a9d18e;
+    --dark-green: #313f2c;
+    --dove: #2c9a43;
+    --butterfly: #669f49;
+    --shadow: #495f44;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: var(--butterfly);
+    background-color: var(--dark-green);
+}
+
+nav {
+    background-color: var(--light-green);
+}
+
+.name {
+    color: var(--dove);
+}
+.me-img {
+    width: 300px;
+}
