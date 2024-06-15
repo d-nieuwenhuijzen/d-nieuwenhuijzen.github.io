@@ -32,3 +32,16 @@ nav {
 .container-margin {
     margin-top: 150px;
 }
+
+.green-back {
+    background-color: var(--dark-green);
+}
+
+.border-green {
+    border-color: var(--dark-green);
+}
+
+a {
+        color: #FFFFFF;
+        text-decoration: none;
+}
