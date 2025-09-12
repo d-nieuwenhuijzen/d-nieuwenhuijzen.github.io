@@ -7,6 +7,9 @@
 :root {
     --light-green: #a9d18e;
     --dark-green: #313f2c;
+    --darker-green: #003200;
+    --darkest-green: #002800;
+    --grey-green: #828e84;
     --dove: #2c9a43;
     --butterfly: #669f49;
     --shadow: #495f44;
@@ -18,30 +21,55 @@ body {
     background-color: var(--dark-green);
 }
 
-nav {
-    background-color: var(--light-green);
+.green-back {
+    background-color: var(--dark-green);
 }
 
-.name {
-    color: var(--dove);
-}
-.me-img {
-    width: 300px;
+nav {
+    background-color: var(--light-green);
 }
 
 .container-margin {
     margin-top: 150px;
 }
 
-.green-back {
-    background-color: var(--dark-green);
+.me-img {
+    width: 300px;
+}
+
+.img-2{
+    width: 225px;
 }
 
 .border-green {
     border-color: var(--dark-green);
 }
 
+/* text css*/
+.text-dark-green {
+    color: var(--darker-green)
+}
+
+.text-darkest {
+    color: var(--darkest-green);
+}
+.text-grey {
+    color: var(--grey-green)
+}
+
+.text-article {
+    color: var(--light-green);
+}
+
+.text-shadow {
+   text-shadow: 2px 2px 1px var(--darkest-green);
+}
+
+.name {
+    color: var(--butterfly);
+}
+
 a {
-        color: #FFFFFF;
+    color: #FFFFFF;
         text-decoration: none;
-}   
+    }   
