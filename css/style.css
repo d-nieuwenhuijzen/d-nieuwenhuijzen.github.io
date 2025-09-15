@@ -13,6 +13,7 @@
     --dove: #2c9a43;
     --butterfly: #669f49;
     --shadow: #495f44;
+    --sec-success: #508052;
 }
 
 body {
@@ -73,3 +74,7 @@ a {
     color: #FFFFFF;
         text-decoration: none;
     }   
+
+.sec-success {
+    color: var(--sec-success);
+}
